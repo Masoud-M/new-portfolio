@@ -5,8 +5,3 @@
 * {
   scroll-behavior: smooth;
 }
-
-.image-scroll {
-  transition-property: all;
-  transition-duration: 4000ms;
-}
