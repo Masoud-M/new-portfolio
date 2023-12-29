@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 function Hero() {
   return (
     <section id="home" className="bg-white">
-      <div className="  w-[90%] lg:w-[65%] mx-auto flex flex-col items-center justify-between text-center h-fit gap-8 py-28 transition-all">
+      <div className="  w-[90%] lg:w-[65%] mx-auto flex flex-col items-center justify-between text-center h-fit gap-8 pb-28 pt-36 transition-all">
         <div className="flex flex-col items-center sm:items-start">
           <TypeAnimation
             className="mb-10 text-3xl font-semibold text-blue-500 md:text-5xl"
