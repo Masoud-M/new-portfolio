@@ -30,26 +30,31 @@ function MobileMenu({ toggleMenu, handleToggle }) {
           className="absolute top-[24px] right-[48px]"
         />
         <ul className="text-3xl font-semibold md:hidden">
-          <li className={liItemStyle}>
-            <a className={aItemStyle} href="/">
+          <li onClick={handleToggle} className={liItemStyle}>
+            <a className={aItemStyle} href="#home">
               <IoHome />
               <span>Home</span>
             </a>
           </li>
-          <li className={liItemStyle}>
-            <a className={aItemStyle} href="/">
+          <li onClick={handleToggle} className={liItemStyle}>
+            <a className={aItemStyle} href="#projects">
               <IoAlbums />
               <span>Projects</span>
             </a>
           </li>
-          <li className={liItemStyle}>
-            <a className={aItemStyle} href="/">
+          <li onClick={handleToggle} className={liItemStyle}>
+            <a className={aItemStyle} href="#contacts">
               <IoMail />
               <span>Contact</span>
             </a>
           </li>
-          <li className={liItemStyle}>
-            <a className={aItemStyle} href="/">
+          <li onClick={handleToggle} className={liItemStyle}>
+            <a
+              className={aItemStyle}
+              href="https://github.com/Masoud-M"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsGithub />
               <span>Github</span>
             </a>

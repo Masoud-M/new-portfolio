@@ -5,7 +5,7 @@ const Contacts = () => {
     "px-6 py-3 bg-gray-100 rounded-full shadow-md outline-blue-500";
   const labelStyle = "pb-4";
   return (
-    <div id="contact">
+    <div id="contacts">
       <div className="w-[90%] lg:w-[65%] mx-auto py-28">
         <div className="">
           <div className="flex flex-col ">
