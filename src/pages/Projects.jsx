@@ -2,13 +2,20 @@ import ProjectItem from "../components/ProjectItem";
 import CarRental from "../assets/car-rental.png";
 import GymImg from "../assets/gym-website.png";
 import SortingVisualizer from "../assets/sorting-visualizer.png";
+import { TypeAnimation } from "react-type-animation";
 function Projects() {
   return (
     <section id="projects" className="bg-gray-100">
-      <div className="w-[90%] 2xl:w-[65%] mx-auto flex flex-col items-center text-center gap-20  py-28 transition-all">
-        <h2 className="mb-10 text-4xl font-semibold text-blue-500 md:text-6xl">
-          Projects
-        </h2>
+      <div className="w-[90%] 2xl:w-[65%] mx-auto flex flex-col items-center  gap-20  py-28 transition-all">
+        <div className="flex items-center sm:items-start">
+          <TypeAnimation
+            className="text-3xl font-semibold text-blue-500 md:text-5xl"
+            sequence={["Projects", 1000, " ", 1000]}
+            wrapper="span"
+            cursor={true}
+            repeat={Infinity}
+          />
+        </div>
 
         <ProjectItem
           image={CarRental}

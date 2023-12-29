@@ -19,7 +19,7 @@ function ProjectItem({ image, demo, title, description, techStack, srcLink }) {
       </div>
 
       <div className="flex flex-col w-[300px] mx-auto justify-center">
-        <h3 className="mb-5 text-xl font-bold">{title}</h3>
+        <h3 className="mb-5 text-xl font-bold text-blue-500">{title}</h3>
         <p className="text-gray-600 text-lg/6">{description}</p>
         <div className="flex flex-row items-center justify-center w-full gap-4 mt-4">
           {techStack.map((item) => (
