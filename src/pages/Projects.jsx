@@ -5,7 +5,10 @@ import SortingVisualizer from "../assets/sorting-visualizer.png";
 import { TypeAnimation } from "react-type-animation";
 function Projects() {
   return (
-    <section id="projects" className="bg-gray-100">
+    <section
+      id="projects"
+      className="text-gray-600 bg-white dark:bg-slate-950 dark:text-gray-300"
+    >
       <div className="w-[90%] 2xl:w-[65%] mx-auto flex flex-col items-center  gap-20  py-28 transition-all">
         <div className="flex items-center sm:items-start">
           <TypeAnimation

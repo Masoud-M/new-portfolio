@@ -22,7 +22,7 @@ function MobileMenu({ toggleMenu, handleToggle }) {
         data-aos-anchor="#example-anchor"
         data-aos-offset="500"
         data-aos-duration="500"
-        className="fixed top-0 bottom-0 left-0 right-0 flex items-center justify-center h-full transition-all bg-white "
+        className="fixed top-0 bottom-0 left-0 right-0 flex items-center justify-center h-full text-gray-600 transition-all bg-white dark:bg-slate-900 dark:text-gray-300 "
       >
         <IoClose
           onClick={handleToggle}

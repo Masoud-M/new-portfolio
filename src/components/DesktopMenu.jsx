@@ -2,6 +2,7 @@ import { IoHome } from "react-icons/io5";
 import { IoAlbums } from "react-icons/io5";
 import { IoMail } from "react-icons/io5";
 import { BsGithub } from "react-icons/bs";
+import ToggleBtn from "./ToggleBtn";
 
 function DesktopMenu() {
   const liItemStyle = " transition-all cursor-pointer hover:text-blue-500";
@@ -36,6 +37,11 @@ function DesktopMenu() {
           <BsGithub />
           <span>Github</span>
         </a>
+      </li>
+      <li className={liItemStyle}>
+        <div className={aItemStyle}>
+          <ToggleBtn />
+        </div>
       </li>
     </ul>
   );

@@ -6,7 +6,10 @@ import Tailwind from "../assets/Images/tailwind.svg";
 import { TypeAnimation } from "react-type-animation";
 function Hero() {
   return (
-    <section id="home" className="bg-white">
+    <section
+      id="home"
+      className="text-gray-600 bg-white dark:bg-slate-900 dark:text-gray-300"
+    >
       <div className="  w-[90%] lg:w-[65%] mx-auto flex flex-col items-center justify-between text-center h-fit gap-8 pb-28 pt-36 transition-all">
         <div className="flex flex-col items-center sm:items-start">
           <TypeAnimation
@@ -26,7 +29,7 @@ function Hero() {
             repeat={Infinity}
           />
 
-          <p className="my-6 font-semibold text-gray-600 text-xl/9 text-pretty md:text-2xl md:text-left">
+          <p className="my-6 font-semibold text-xl/9 text-pretty md:text-2xl md:text-left">
             Hi, I'm Masoud. A passionate Front-end React developer. My expertise
             lies in crafting dynamic, engaging interfaces through writing clean
             and optimized code. I am also a team player who thrives in

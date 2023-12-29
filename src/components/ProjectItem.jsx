@@ -9,7 +9,7 @@ function ProjectItem({ image, demo, title, description, techStack, srcLink }) {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="flex flex-col gap-8 lg:gap-20 p-5 shadow-xl bg-gray-50 lg:flex-row rounded-3xl w-fit h-[750px] lg:h-[400px] max-w-[570px] lg:max-w-[990px]">
+    <div className="flex flex-col gap-8 lg:gap-20 p-5 shadow-xl dark:bg-slate-900 text-gray-600 dark:text-gray-300 bg-gray-50 lg:flex-row rounded-3xl w-fit h-[750px] lg:h-[400px] max-w-[570px] lg:max-w-[990px]">
       <div className=" mx-auto overflow-hidden max-w-[530px] max-h-[360px] rounded-3xl shadow-md cursor-pointer h-auto">
         <img
           className="transition-all duration-[3000ms] ease-linear translate-y-0 hover:-translate-y-[74%]"
@@ -19,12 +19,12 @@ function ProjectItem({ image, demo, title, description, techStack, srcLink }) {
       </div>
 
       <div className="flex flex-col w-[300px] mx-auto justify-center">
-        <h3 className="mb-5 text-xl font-bold text-blue-500">{title}</h3>
-        <p className="text-gray-600 text-lg/6">{description}</p>
+        <h3 className="mb-5 text-2xl font-bold text-blue-500">{title}</h3>
+        <p className=" text-lg/6">{description}</p>
         <div className="flex flex-row items-center justify-center w-full gap-4 mt-4">
           {techStack.map((item) => (
             <div
-              className="px-3 py-1.5 mt-2 bg-white rounded-md shadow-md font-semibold text-nowrap"
+              className="px-3 py-1.5 mt-2 bg-white dark:bg-slate-800 rounded-md shadow-md font-semibold text-nowrap"
               key={item}
             >
               {item}

@@ -2,10 +2,13 @@ import { TypeAnimation } from "react-type-animation";
 
 const Contacts = () => {
   const inputStyle =
-    "px-6 py-3 bg-gray-100 rounded-full shadow-md outline-blue-500";
+    "px-6 py-3 bg-gray-100 dark:bg-slate-200 rounded-full shadow-md outline-blue-500";
   const labelStyle = "pb-4";
   return (
-    <div id="contacts">
+    <div
+      id="contacts"
+      className="text-gray-600 bg-white dark:bg-slate-900 dark:text-gray-300"
+    >
       <div className="w-[90%] lg:w-[65%] mx-auto py-28">
         <div className="">
           <div className="flex flex-col ">
@@ -48,7 +51,7 @@ const Contacts = () => {
                 <div className="flex flex-col py-2 ">
                   <label className={labelStyle}>Message</label>
                   <textarea
-                    className="px-6 py-3 mb-6 bg-gray-100 rounded-lg shadow-md outline-blue-500"
+                    className="px-6 py-3 mb-6 bg-gray-100 rounded-lg shadow-md dark:bg-slate-200 outline-blue-500"
                     name="message"
                     rows="10"
                   ></textarea>
