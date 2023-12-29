@@ -9,25 +9,30 @@ function DesktopMenu() {
   return (
     <ul className="items-center hidden gap-5 text-xl font-semibold justify-evenly md:flex">
       <li className={liItemStyle}>
-        <a className={aItemStyle} href="/">
+        <a className={aItemStyle} href="#home">
           <IoHome />
           Home
         </a>
       </li>
       <li className={liItemStyle}>
-        <a className={aItemStyle} href="/">
+        <a className={aItemStyle} href="#projects">
           <IoAlbums />
           <span>Projects</span>
         </a>
       </li>
       <li className={liItemStyle}>
-        <a className={aItemStyle} href="/">
+        <a className={aItemStyle} href="#contacts">
           <IoMail />
           <span>Contact</span>
         </a>
       </li>
       <li className={liItemStyle}>
-        <a className={aItemStyle} href="/">
+        <a
+          className={aItemStyle}
+          href="https://github.com/Masoud-M"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsGithub />
           <span>Github</span>
         </a>
