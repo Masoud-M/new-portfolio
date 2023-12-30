@@ -1,7 +1,7 @@
 import ProjectItem from "../components/ProjectItem";
 import CarRental from "../assets/car-rental.png";
 import GymImg from "../assets/gym-website.png";
-import SortingVisualizer from "../assets/sorting-visualizer.png";
+
 import { TypeAnimation } from "react-type-animation";
 function Projects() {
   return (
@@ -36,15 +36,6 @@ function Projects() {
           techStack={["React", "CSS"]}
           srcLink="https://github.com/Masoud-M/gym-website"
           demo="https://fitclub-1my.pages.dev/"
-        />
-
-        <ProjectItem
-          image={SortingVisualizer}
-          title="Sorting Visualizer"
-          description="A way to show how different sorting algorithms work by slowing them down and visually showing the process, which you can set the side of the array and the sorting speed and choose between different algorithms"
-          techStack={["React", "TypeScript", "Tailwind"]}
-          srcLink="https://github.com/Masoud-M/sorting-algorithms"
-          demo="https://teal-melba-fffa8e.netlify.app/"
         />
       </div>
     </section>
