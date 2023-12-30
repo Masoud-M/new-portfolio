@@ -26,7 +26,7 @@ function Projects() {
           description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
           techStack={["Next JS", "TypeScript", "Tailwind"]}
           srcLink="https://github.com/Masoud-M/car-rental"
-          demo="https://647eead214d0787e130c91b3--delicate-tiramisu-c6cc9e.netlify.app/"
+          demo="https://clone-car-rental.netlify.app/"
         />
 
         <ProjectItem
