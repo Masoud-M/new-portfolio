@@ -3,6 +3,8 @@ import CSS from "../assets/Images/css.svg";
 import JavaScript from "../assets/Images/javascript.svg";
 import ReactIcon from "../assets/Images/react.svg";
 import Tailwind from "../assets/Images/tailwind.svg";
+import TypeScript from "../assets/Images/typescript.svg";
+import Nextjs from "../assets/Images/nextjs.svg";
 import { TypeAnimation } from "react-type-animation";
 function Hero() {
   return (
@@ -62,13 +64,27 @@ function Hero() {
               <img
                 className="md:w-20 md:h-20 w-14 h-14"
                 src={JavaScript}
-                alt="javascript icon"
+                alt="Javascript icon"
+              />
+            </li>
+            <li>
+              <img
+                className="md:w-20 md:h-20 w-14 h-14"
+                src={TypeScript}
+                alt="TypeScript icon"
               />
             </li>
             <li>
               <img
                 className="md:w-20 md:h-20 w-14 h-14"
                 src={ReactIcon}
+                alt="react icon"
+              />
+            </li>
+            <li>
+              <img
+                className="md:w-20 md:h-20 w-14 h-14"
+                src={Nextjs}
                 alt="react icon"
               />
             </li>
