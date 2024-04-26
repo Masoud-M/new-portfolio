@@ -32,20 +32,20 @@ function Projects() {
           staticImage
         />
         <ProjectItem
-          image={Thewildoasis}
-          title="The Wild Oasis"
-          description="A local web-based management tool designed exclusively for hotel staff. Employees can create/delete user accounts, manage guest information, and update room details."
-          techStack={["React", "Javascript", "Styled-components"]}
-          srcLink="https://github.com/Masoud-M/the-wild-oasis"
-          staticImage
-        />
-        <ProjectItem
           image={CarRental}
           title="Car Rental"
           description="A car rental website offering users the convenience of renting vehicles for personal or business use. The platform features an intuitive interface for browsing, comparing, and reserving cars."
           techStack={["Next JS", "TypeScript", "Tailwind"]}
           srcLink="https://github.com/Masoud-M/car-rental"
           demo="https://clone-car-rental.netlify.app/"
+        />
+        <ProjectItem
+          image={Thewildoasis}
+          title="The Wild Oasis"
+          description="A local web-based management tool designed exclusively for hotel staff. Employees can create/delete user accounts, manage guest information, and update room details."
+          techStack={["React", "Javascript", "Styled-components"]}
+          srcLink="https://github.com/Masoud-M/the-wild-oasis"
+          staticImage
         />
 
         <ProjectItem

@@ -38,7 +38,7 @@ function ProjectItem({
       <div className="flex flex-col w-[300px] mx-auto justify-center">
         <h3 className="mb-5 text-2xl font-bold text-blue-500">{title}</h3>
         <p className=" text-lg/6">{description}</p>
-        <div className="flex flex-row items-center justify-center w-full gap-4 mt-4">
+        <div className="flex flex-row flex-wrap items-center justify-center w-full gap-4 mt-4">
           {techStack.map((item) => (
             <div
               className="px-3 py-1.5 mt-2 bg-white dark:bg-slate-800 rounded-md shadow-md font-semibold text-nowrap"
