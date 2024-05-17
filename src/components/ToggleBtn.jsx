@@ -4,7 +4,7 @@ function ToggleBtn() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
   return (
     <button onClick={toggleDarkMode}>
-      {isDarkMode ? <HiOutlineSun /> : <HiOutlineMoon />}
+      {isDarkMode ? <HiOutlineSun size={30} /> : <HiOutlineMoon size={30} />}
     </button>
   );
 }
